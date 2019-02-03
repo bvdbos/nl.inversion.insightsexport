@@ -9,11 +9,18 @@ class MySQLServerDriver extends Homey.Driver {
     socket.on('check', function(data, callback) {
 
       const connection = mysql.createConnection({
-        host     : data.host,
-        port     : data.port,
+        host     : "10.0.4.254",
+		port     : 3307,
+        user     : "homey",
+        password : "homeywachtwoord",
+        database : "Homey-db-test"
+		/*
+		host     : data.host,
+		port     : data.port,
         user     : data.username,
         password : data.password,
-        database : data.db
+        database : Homey-test1
+		*/
       });
 
       console.log('Data:', data);

@@ -71,7 +71,7 @@
                             "en": "MySQL port",
                             "nl": "MySQL poort"
                         },
-                        "value": 3306,
+                        "value": 3307,
                         "hint": {
                           "en": "Enter the port number used by your MySQL server. Default is 3306",
                           "nl": "Geef het poort nummer op van uw MySQL server. Standaard is 3306"
